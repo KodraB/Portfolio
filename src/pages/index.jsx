@@ -61,7 +61,7 @@ const Index = () => (
       <Hero offset={0}>
         <BigTitle>
           BESIAN KODRA
-          <br /> - - Developer - -
+          <br />Developer
         </BigTitle>
         <Subtitle>
           This is a portfolio site I built using Gatsby. I needed a place where I could periodically upload work to show
