@@ -26,6 +26,7 @@ const InnerWave = styled.div`
 
 const Contact = ({ children, offset }) => (
   <>
+    <Divider bg="linear-gradient(to right, #ff0080 0%, #40e0d0 90%)" clipPath="circle(40%)" speed={0.9} offset={offset} factor={1} />
     <Divider fill="#23262b" speed={0.2} offset={offset}>
       <WaveWrapper>
         <InnerWave>
