@@ -14,7 +14,13 @@ const Wrapper = styled.div`
 
 const Hero = ({ children, offset }) => (
   <>
-    <Divider bg="linear-gradient(to right, #00c3ff 0%, #ffff1c 100%)" clipPath="polygon(0 16%, 100% 4%, 100% 82%, 0 94%)" speed={0.9} offset={offset} />
+    <Divider
+      bg="linear-gradient(to right, #00c3ff 0%, #ffff1c 100%)"
+      clipPath="polygon(0 16%, 100% 4%, 100% 82%, 0 94%)"
+      speed={0.9}
+      offset={offset}
+      factor={1}
+    />
     <Divider speed={0.2} offset={offset}>
       <UpDown>
         <SVG icon="triangle" hiddenMobile width={48} stroke={colors.orange} left="10%" top="20%" />
