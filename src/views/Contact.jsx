@@ -28,7 +28,7 @@ const Contact = ({ children, offset }) => (
   <>
     <Divider
       bg="linear-gradient(to right, #ff0080 0%, #40e0d0 90%)"
-      clipPath="circle(40%)"
+      clipPath="circle(30%)"
       speed={0.9}
       offset={offset}
       factor={1}
