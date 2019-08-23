@@ -87,7 +87,7 @@ const Index = () => (
           </ProjectCard>
           <ProjectCard
             title="Good Quotes"
-            link="https://mcaweb.matc.edu/kodrab/160/assignment-8/index.html"
+            link="https://tender-ritchie-21c35e.netlify.com/"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
             A simple JavaScript website with a few quotes
